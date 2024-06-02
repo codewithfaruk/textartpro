@@ -3,6 +3,7 @@
 import React, { useState, ChangeEvent } from "react";
 import toast from "react-hot-toast";
 import Ads from "../ads";
+import Image from "next/image";
 interface Mapping {
   [key: string]: string;
 }
@@ -2182,6 +2183,153 @@ export default function BoldText() {
         ))}
       </div>
       <Ads/>
+      <article className="prose mx-4 bg-neutral-50 px-3 py-4 rounded-xl my-3 md:max-w-7xl md:mx-auto">
+   <h1>ASCII Text Art Copy and Paste</h1>
+   <p>
+     ASCII art is a dynamic and versatile digital art form that uses
+     characters from the ASCII character set (American Standard Code for
+     Information Interchange) to create simple to complex text art images.
+     Because it uses the ASCII format, these text art symbols can be
+     inserted almost anywhere. This is why ASCII art generators have become
+     such a popular digital art format and are used in various areas like
+     social media posts, forum signatures, video games, graphic design
+     posts, etc. Text art copy paste characters are used by almost everyone
+     who is familiar with the internet. Hence, we can say that text to art
+     has a huge significance in our day-to-day life.
+   </p>
+   <Image  alt="textartpro.com"  title="textartpro.com"
+          src="/textartpro.jpg"
+          width={400}
+          height={200}
+          className="w-full max-w-full"
+        />
+        <h2>What is ASCII Text Art Copy and Paste?</h2>
+        <p>
+          ASCII is a standard code-based digital art that is easy to copy and
+          paste into almost every software. This means you can use text art
+          symbols as part of your username, virtual character, personalized
+          emojis, personalized cards, and other complex creative purposes. ASCII
+          art for Instagram comments and text art for Instagram bios have become
+          extremely popular among the younger generation.
+        </p>
+        {<Ads/>}
+        <p>
+          ASCII art originated in the 1960s, which easily makes it one of the
+          oldest digital art forms to exist. Today, ASCII has developed into a
+          much more capable digital tool and is used by almost everyone in the
+          industry. You can go to any text art website and choose ASCII art from
+          there. Then you can simply copy and paste it to any location.
+        </p>
+        <h2>Creating ASCII Art - Pro Text Art in The Modern World</h2>
+        <p>
+          Just like in traditional art, basic characters like lines and dots are
+          used in ASCII text art to create simple elements. ASCII art small
+          characters can make modern emojis, stickers, and even fancy digital
+          letter art.
+        </p>
+        <p>
+          A very popular method of creating text art ASCII is to use a program
+          or website which already has a vast store of ASCII text art. These
+          websites allow you to click on your desired text art symbol and copy
+          it. Then you can paste it anywhere! Our website allows you to browse
+          text art emojis, text art greetings, text art callouts, text art
+          love-themed graphics, etc., from several different categories. This
+          means you can discover and use instant text art using a text art copy
+          and paste website. If you are interested in this, you have come to the
+          right place!
+        </p>
+        <p>
+          On websites like ours, you can type in ASCII art name and discover
+          ready-made text art. For this, go to the top of the homepage. You will
+          find several different categories with hundreds of ASCII text art
+          graphics under each category. Click on the category of your choice and
+          pick the perfect, unique Text art cat, Text art gun, etc. graphics and
+          use it wherever you want to!
+        </p>
+        <h2>Share Exciting ASCII Text Art with Family and Friends!</h2>
+        <p>
+          On our website, you will find hundreds of ready-made ASCII art that
+          you can also share with your friends and family! Sharing these
+          attractive and original text art graphics will allow your friends to
+          send beautiful messages to you and others almost daily. They will be
+          able to follow the latest trends just like you! Become a part of the
+          coolest friend group and family group by using the latest birthday
+          text art, Christmas text art, love text art, etc., on special
+          occasions and make memorable memories!
+        </p>
+        <h2>
+          How to Use Text Art ASCII Generator? Functions of ASCII Text Art
+        </h2>
+        <p>
+          Text art copy paste has many functions. These functions are what have
+          made ASCII so popular and widely used by modern users. Even today the
+          same principles that are used in ASCII text formation are used by
+          other, more complex programming formats. What are the major functions
+          of text art ASCII generators?
+        </p>
+        <ul>
+          <li>
+            Get hundreds of choices for ASCII text art from various categories
+          </li>
+          <li>
+            Find unique and creative text to art for all occasions on our
+            website! Some of the most popular categories on Text Art Pro are
+            Love Text Art, Good Morning Text Art, Birthday Text Art, etc. All
+            categories are regularly updated so that you can stay on top of
+            social media trends and use popular text art without difficulty!
+          </li>
+          <li>
+            Discover ASCII digital art within seconds using ASCII users can
+            create surprisingly beautiful social media bio and comments within
+            minutes. Finding the correct ASCII text art is now super easy with
+            our website! Instead of spending time on exploring and creating
+            ASCII text art comment or graphics, you can simply choose from our
+            top notch ASCII category text art and copy paste the one that is
+            perfect for you! Save on valuable time with our website!
+          </li>
+          <li>
+            Create attractive Instagram and gaming bio You can personally use
+            text art small characters and images to create a unique and
+            attractive Instagram and gaming bio. Many users create original
+            ASCII art for Instagram bio which helps them gain more followers and
+            increase their engagement. You can also develop your gaming
+            personality by using the right text art in your bio.
+          </li>
+          <li>
+            Make personalized, effortful messages for special occasions there
+            are popular ASCII text art creations available for birthday posts
+            and celebrations, valentine's day posts and celebrations etc. 'Text
+            art heart', 'ASCII art love' etc. are some of the most commonly
+            searched phrases by users looking for expressive, instant ASCII text
+            art. For example, you can use love text art for a Valentine's Day
+            message, and birthday text art for a birthday celebration message!
+          </li>
+          <li>
+            Create eye-catching comments on social media You can also use
+            different text art ASCII and combine them together to make
+            attractive social media posts! Create delightful social media
+            comments to increase social media engagement on Instagram, Facebook,
+            Twitter, etc. Text art comments are very popular these days and you
+            can use our text art copy paste feature to get free access to text
+            to art graphics. The correct text art comment can make you popular
+            among both friends and strangers, and even impress your role models!
+            You can use text art ASCII comment to launch a successful business
+            on Facebook, Instagram, and WhatsApp.
+          </li>
+        </ul>
+        {<Ads/>}
+        <h2>Conclusion</h2>
+        <p>
+          Text art ASCII is an important digital art form used today. Its
+          importance spans its versatility as equally as its accessibility.
+          Indeed, ASCII text art is accessible to almost anyone. You can use
+          this website to find text art symbols and ASCII art emojis for any
+          platform. You can use these art specimens in online and offline
+          digital projects. It is a graphics tool that has a rich and versatile
+          history. It is one of the classics that will never become less
+          important than it is.
+        </p>
+      </article>
     </section>
   );
 }

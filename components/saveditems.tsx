@@ -10,7 +10,7 @@ export default function Saveditems() {
     <section>
       <div className="fixed bottom-8 right-6 ">
         <Dialog.Root>
-          <Dialog.Trigger className="text-3xl bg-neutral-50 text-neutral-900 shadow p-4 border rounded-full">
+          <Dialog.Trigger className="text-2xl bg-neutral-50 text-neutral-900 shadow p-3 border rounded-full">
             <MdBookmark />
           </Dialog.Trigger>
 

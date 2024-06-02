@@ -8,6 +8,8 @@ import { Toaster } from "react-hot-toast";
 
 import ArtFaceCollectionContextProvider from "@/context";
 import Saveditems from "@/components/saveditems";
+import ScrollToTop from "@/components/scrolltotop";
+import Script from "next/script";
 
 const BricolageGrotesque = Bricolage_Grotesque({ subsets: ["latin"] });
 
@@ -38,6 +40,27 @@ export default function RootLayout({
 
         <Toaster position="top-right" />
         <Saveditems />
+        <ScrollToTop/>
+        <Script
+          id="GA4-url"
+          strategy="beforeInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-1DHJ5YQKJY"
+        ></Script>
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                
+                gtag('config', 'G-1DHJ5YQKJY', {
+                    page_path: window.location.pathname,
+                });
+                `,
+          }}
+        />
       </body>
     </html>
   );
