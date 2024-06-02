@@ -81,7 +81,7 @@ export default function TextArtHome() {
     navigator.clipboard.writeText(item);
   };
   return (
-    <main className="mx-4 !bg-[#eef2ff]">
+    <main className=" !bg-[#eef2ff]">
       <section className="mx-5 lg:max-w-7xl md:mx-auto">
         <Categories
           arrayData={textArtData}
@@ -207,7 +207,7 @@ export default function TextArtHome() {
       </section>
       <Ads/>
  
-  <article className="prose bg-neutral-50 px-3 py-4 rounded-xl my-3 md:max-w-7xl md:mx-auto">
+  <article className="prose mx-4 bg-neutral-50 px-3 py-4 rounded-xl my-3 md:max-w-7xl md:mx-auto">
    <h1>ASCII Text Art Copy and Paste</h1>
    <p>
      ASCII art is a dynamic and versatile digital art form that uses
