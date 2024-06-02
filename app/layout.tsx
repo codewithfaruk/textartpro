@@ -41,6 +41,14 @@ export default function RootLayout({
         <Toaster position="top-right" />
         <Saveditems />
         <ScrollToTop/>
+{/* Adsense */}
+        <Script
+        id="ads"
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1436861775123746"
+      />
+
+ {/* Google Analytics */}
         <Script
           id="GA4-url"
           strategy="beforeInteractive"
