@@ -81,7 +81,7 @@ export default function TextArtHome() {
     navigator.clipboard.writeText(item);
   };
   return (
-    <main className="bg-[#eef2ff]">
+    <main className="mx-4 !bg-[#eef2ff]">
       <section className="mx-5 lg:max-w-7xl md:mx-auto">
         <Categories
           arrayData={textArtData}

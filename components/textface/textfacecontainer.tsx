@@ -57,7 +57,7 @@ export default function TextFaceContainer({
   };
 
   return (
-    <section className="mt-4 mb-8 relative">
+    <section className="mt-4 mb-8 relative !bg-[#eef2ff]" >
       
       <div className="flex flex-wrap gap-4 justify-center mt-4">
         {TextFaces.map((item, index) => (
