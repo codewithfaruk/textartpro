@@ -21,9 +21,9 @@ export default function SaveInput() {
   return (
     <section className="sticky inset-0 z-10">
       <div className="border-2 border-[#9b389d] rounded-lg shadow-md">
-        <div className="flex relative rounded-lg !text-neutral-50 ">
+        <div className="flex relative  !text-neutral-50 ">
           <textarea
-            className="w-full bg-neutral-50 py-2 px-3 font-extralight text-lg text-neutral-900 rounded-t-lg focus:outline-none relative md:px-3 md:py-3"
+            className="w-full rounded-xl bg-neutral-50 py-2 px-3 font-extralight text-lg text-neutral-900 rounded-t-lg focus:outline-none relative md:px-3 md:py-3"
             value={artCollection.join(" ")}
             onChange={handleChange}
           />

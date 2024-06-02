@@ -99,7 +99,7 @@ const ShareModal = () => {
           <p className="font-semibold text-center my-3">Text Face</p>
           <div className="flex flex-wrap gap-4 p-4">
             {textFaces.map((textArt, index) => (
-              <div className="border  px-6 py-3 rounded-xl" key={index}>
+              <div className="border  px-6 py-1 rounded-xl" key={index}>
                 <pre
                   style={{ whiteSpace: "pre-wrap", margin: "10px 0" }}
                   onClick={(e) => handleCopy(e)}
