@@ -7,7 +7,7 @@
 6 silly config:load:file:C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm\etc\npmrc
 7 verbose title npm config get registry
 8 verbose argv "config" "get" "registry"
-9 verbose logfile logs-max:10 dir:C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm-cache\_logs\2024-06-04T07_00_48_453Z-
-10 verbose logfile C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm-cache\_logs\2024-06-04T07_00_48_453Z-debug-0.log
+9 verbose logfile logs-max:10 dir:C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm-cache\_logs\2024-06-04T09_52_14_101Z-
+10 verbose logfile C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm-cache\_logs\2024-06-04T09_52_14_101Z-debug-0.log
 11 verbose exit 0
 12 info ok

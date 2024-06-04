@@ -110,7 +110,7 @@ export default function Header() {
 
           <div className="md:hidden flex items-center gap-5">
             <Dialog.Root open={open} onOpenChange={setOpen}>
-              <Dialog.Trigger>
+              <Dialog.Trigger name="menu button">
                 <span className="md:hidden text-xl">
                   <FiMenu />
                 </span>

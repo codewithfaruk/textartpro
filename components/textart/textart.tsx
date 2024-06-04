@@ -97,7 +97,7 @@ export default function TextArt({ params }: { params: paramsType }) {
                 </div>
                 <div className="border-r border-neutral-300" />
                 <Dialog.Root key={item}>
-                  <Dialog.Trigger className=" w-full">
+                  <Dialog.Trigger className=" w-full" name="copy button">
                     <div className="flex justify-center py-3 text-[1.3rem] text-neutral-800">
                       <MdShare />
                     </div>
@@ -498,6 +498,7 @@ const ShareModal = ({ item, url }: { item: string; url: string }) => {
             className="bg-neutral-100 w-full text-sm text-neutral-900 focus:outline-none "
           />
           <button
+          name="copy button"
             className="bg-purple-500 text-white px-3 py-2 rounded-xl"
             onClick={() => {
               navigator.clipboard.writeText(process.env.NEXT_PUBLIC_SITE + url);

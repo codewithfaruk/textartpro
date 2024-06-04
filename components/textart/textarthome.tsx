@@ -123,7 +123,7 @@ export default function TextArtHome() {
                     </div>
                     <div className="border-r border-neutral-300" />
                     <Dialog.Root key={item}>
-                      <Dialog.Trigger className=" w-full">
+                      <Dialog.Trigger className=" w-full" name="copy button">
                         <div className="flex justify-center py-3 text-[1.3rem] text-neutral-800">
                           <MdShare />
                         </div>

@@ -27,7 +27,7 @@ export default function Categories({
             className={`bg-neutral-50 px-5 py-2 rounded-xl capitalize border whitespace-nowrap ${
               currentFace !== item
                 ? "bg-[#c6d2e2] text-neutral-950"
-                : "!bg-[#6758ff] text-[#f1f1f1]"
+                : "!bg-[#6758ff] text-[#fff]"
             }`}
           >
             {item.replaceAll("-", " ")}
