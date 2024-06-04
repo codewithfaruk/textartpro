@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react';
-import { MdArrowCircleUp, MdArrowDropUp } from 'react-icons/md';
+import {  MdArrowDropUp } from 'react-icons/md';
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);

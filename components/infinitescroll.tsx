@@ -26,7 +26,7 @@ export default function Infinitescroll({
   const handleRedirect = (index: number) => {
     const nextIndex = (index + 1) % arrayData.length;
     const id = setTimeout(() => {
-      router.push(`/${path}/${arrayData[nextIndex].name}`);
+      router.push(`${path ? path : ""}/${arrayData[nextIndex].name}`);
     }, 1500);
     setTimeoutId(id);
   };

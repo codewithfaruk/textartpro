@@ -1,4 +1,4 @@
-import { faceData } from "@/libs/faces";
+
 import Link from "next/link";
 import React from "react";
 
@@ -23,7 +23,7 @@ export default function Categories({
         {mergedName.map((item) => (
           <Link
             key={item}
-            href={`/${path}/${item.toLocaleLowerCase()}`}
+            href={`/${path ? path : ""}${path ? "/" : ""}${item.toLocaleLowerCase()}`}
             className={`bg-neutral-50 px-5 py-2 rounded-xl capitalize border whitespace-nowrap ${
               currentFace !== item
                 ? "bg-[#c6d2e2] text-neutral-950"

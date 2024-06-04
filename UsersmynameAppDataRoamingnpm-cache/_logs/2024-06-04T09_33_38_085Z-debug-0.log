@@ -1,0 +1,35 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.14.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\faruk\Documents\Fiverr\Orders\textartv2\.npmrc
+5 silly config:load:file:C:\Users\faruk\.npmrc
+6 silly config:load:file:C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm\etc\npmrc
+7 verbose title npm run buil
+8 verbose argv "run" "buil"
+9 verbose logfile logs-max:10 dir:C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm-cache\_logs\2024-06-04T09_33_38_085Z-
+10 verbose logfile C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm-cache\_logs\2024-06-04T09_33_38_085Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 verbose stack Error: Missing script: "buil"
+12 verbose stack
+12 verbose stack Did you mean this?
+12 verbose stack   npm run build # run the "build" package script
+12 verbose stack
+12 verbose stack To see a list of scripts, run:
+12 verbose stack   npm run
+12 verbose stack     at RunScript.run (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:79:13)
+12 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+13 verbose cwd C:\Users\faruk\Documents\Fiverr\Orders\textartv2
+14 verbose Windows_NT 10.0.22631
+15 verbose node v20.14.0
+16 verbose npm  v10.7.0
+17 error Missing script: "buil"
+17 error
+17 error Did you mean this?
+17 error   npm run build # run the "build" package script
+17 error
+17 error To see a list of scripts, run:
+17 error   npm run
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: C:\Users\faruk\Documents\Fiverr\Orders\textartv2\UsersmynameAppDataRoamingnpm-cache\_logs\2024-06-04T09_33_38_085Z-debug-0.log

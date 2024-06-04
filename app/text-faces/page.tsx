@@ -2,7 +2,6 @@
 import TextFaceHome from "@/components/textface/textfacehome";
 
 import { faceData } from "@/libs/faces";
-import { notFound } from "next/navigation";
 import React from "react";
 
 export async function generateMetadata() {

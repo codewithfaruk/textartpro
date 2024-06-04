@@ -14,15 +14,11 @@ import {
   FacebookShareButton,
   RedditShareButton,
   TelegramShareButton,
-  TwitterShareButton,
   WhatsappShareButton,
 } from "react-share";
 import {
-  FaFacebook,
-  FaReddit,
-  FaTelegram,
+
   FaWhatsapp,
-  FaXTwitter,
 } from "react-icons/fa6";
 import { useState } from "react";
 import toast from "react-hot-toast";
@@ -32,10 +28,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaFacebookF, FaRedditAlien } from "react-icons/fa6";
 import { notFound } from "next/navigation";
-import Infinitescroll from "@/components/infinitescroll";
 import Categories from "@/components/categories";
 import Image from "next/image";
 import Ads from "../ads";
+
 type paramsType = {
   textart: string;
 };
@@ -65,7 +61,7 @@ export default function TextArt({ params }: { params: paramsType }) {
         <Categories
           arrayData={textArtData}
           currentFace={params.textart}
-          path="text-art"
+          path=""
         />
         <Ads/>
         <div className="flex flex-col justify-center gap-6 md:flex-row md:flex-wrap overflow-hidden hide-scroll pb-6">
@@ -118,11 +114,9 @@ export default function TextArt({ params }: { params: paramsType }) {
           ))}
         </div>
         <Ads/>
-        <Infinitescroll
-          arrayData={textArtData}
-          currentName={params.textart}
-          path="text-art"
-        />
+       
+
+       
         <main className="prose bg-neutral-50 px-3 py-4 rounded-xl my-3 md:max-w-7xl md:mx-auto">
           <h1>ASCII Text Art Copy and Paste</h1>
           <p>

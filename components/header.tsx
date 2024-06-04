@@ -1,7 +1,5 @@
 "use client";
 import { Pacifico } from "next/font/google";
-
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";

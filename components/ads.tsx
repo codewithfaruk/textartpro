@@ -3,7 +3,9 @@ import { Adsense } from "@ctrl/react-adsense";
 
 export default function Ads() {
   return (
-    <section className="text-neutral-500 my-3 w-full mx-auto">
+    <section className="overflow-scroll hide-scroll text-neutral-500 my-3 w-full mx-auto">
+ 
+
       <div>
         {/* <div className="!w-full h-48 bg-slate-200 rounded-lg border border-neutral-300 flex justify-center items-center">
 
@@ -18,6 +20,7 @@ export default function Ads() {
         format="fluid"
       />
       </div>
+  
     </section>
   );
 }

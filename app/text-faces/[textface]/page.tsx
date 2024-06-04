@@ -7,7 +7,6 @@ import SaveInput from "@/components/textface/saveinput";
 import Categories from "@/components/categories";
 import Facelist from "@/components/textface/facelist";
 import Ads from "@/components/ads";
-import Infinitescroll from "@/components/infinitescroll";
 
 type paramsType = {
   textface: string;
@@ -48,11 +47,11 @@ export default function page({ params }: { params: paramsType }) {
         TextFaces={selectedObject.data}
         url={params.textface}
       />
-       <Infinitescroll
+       {/* <Infinitescroll
         currentName={params.textface}
         arrayData={faceData}
         path="text-faces"
-      /> 
+      />  */}
 
 {/* <InfinitescrollforTextFace
  currentName={params.textface}
