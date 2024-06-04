@@ -28,6 +28,8 @@ export default function SaveInput() {
             onChange={handleChange}
           />
           <button
+                    name="copy button"
+
             className="bg-[#9a389b] hidden px-5 py-[0.5rem] rounded-lg md:block md:absolute md:right-3 md:bottom-1"
             onClick={() => handleClick()}
           >
@@ -35,6 +37,7 @@ export default function SaveInput() {
           </button>
 
           <button
+                    name="close button"
             className="absolute bg-neutral-700 p-2 rounded-full right-2 top-2 md:right-5 md:top-1 md:p-1"
             onClick={() => setArtCollection([])}
           >
@@ -42,6 +45,8 @@ export default function SaveInput() {
           </button>
         </div>
         <button
+                    name="copy button"
+
           className="bg-[#9a389b] px-5 py-[0.65rem] rounded-b w-full md:hidden"
           onClick={() => handleClick()}
         >

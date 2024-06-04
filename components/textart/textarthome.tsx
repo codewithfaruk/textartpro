@@ -473,6 +473,8 @@ const CopyModal = ({ item }: { item: string }) => {
                       className="bg-neutral-100 w-full text-sm text-neutral-900 focus:outline-none "
                     />
                     <button
+                    name="copy button"
+
                       className="bg-purple-500 text-white px-3 py-2 rounded-xl"
                       onClick={() => {
                         navigator.clipboard.writeText(
@@ -534,6 +536,8 @@ const ShareModal = ({ item, url }: { item: string; url: string }) => {
             className="bg-neutral-100 w-full text-sm text-neutral-900 focus:outline-none "
           />
           <button
+                    name="copy button"
+
             className="bg-purple-500 text-white px-3 py-2 rounded-xl"
             onClick={() => {
               navigator.clipboard.writeText(process.env.NEXT_PUBLIC_SITE + url);

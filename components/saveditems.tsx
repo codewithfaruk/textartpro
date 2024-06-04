@@ -112,6 +112,7 @@ const ShareModal = () => {
         </div>
         <div className="bg-neutral-50 flex justify-evenly rounded-b-2xl">
           <button
+          name="clear saved items"
             onClick={handleClear}
             className="text-red-500 btext-xl py-3 cursor-pointer text-center block"
           >
